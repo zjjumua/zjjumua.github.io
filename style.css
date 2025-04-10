@@ -9,7 +9,7 @@ body {
   align-items: center;
   min-height: 100vh;
   flex-direction: column;
-  background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+  background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background with soft coral and peach tones */
 }
 
 /* Main container for centering the content */
@@ -20,66 +20,68 @@ body {
   text-align: center;
   margin-top: 30px;
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.8); /* Slight transparency for background */
+  background-color: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Title Styles */
 h2 {
-  color: #333;
+  color: #2c3e50; /* Darker gray for text */
   font-size: 2em;
   margin-bottom: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Slight shadow for title */
 }
 
 /* Letter Section Styling */
 .letter {
-  background-color: #ffffff;
+  background-color: #ffffff; /* White background */
   padding: 30px;
   margin: 20px 0;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border: 1px solid #ddd;
+  border: 1px solid #e0e0e0; /* Light gray border */
   transition: transform 0.3s ease;
+  background-color: #f7f9fc; /* Soft blue-gray background for the letter */
 }
 
 .letter:hover {
-  transform: translateY(-5px); /* Slight lift on hover */
+  transform: translateY(-5px); /* Slight lift effect on hover */
 }
 
 .letter p {
   font-size: 1.1em;
-  color: #555;
+  color: #555; /* Dark gray for text */
   line-height: 1.6;
 }
 
 /* Song Section Styling */
 .song {
-  background-color: #ffffff;
+  background-color: #ffffff; /* White background */
   padding: 30px;
   margin: 20px 0;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border: 1px solid #ddd;
+  border: 1px solid #e0e0e0; /* Light gray border */
   transition: transform 0.3s ease;
+  background-color: #f7f9fc; /* Soft blue-gray background for the song section */
 }
 
 .song:hover {
-  transform: translateY(-5px); /* Slight lift on hover */
+  transform: translateY(-5px); /* Slight lift effect on hover */
 }
 
 .song iframe {
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow around the iframe */
   width: 100%;
   height: 315px;
 }
 
-/* Additional Styling for Buttons or Links (if needed) */
+/* Button Style (Optional - for interactive elements like links or buttons) */
 button, a {
-  background-color: #ff7e5f;
-  color: #fff;
+  background-color: #ff7e5f; /* Soft coral background for buttons */
+  color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 50px;
@@ -91,11 +93,19 @@ button, a {
 }
 
 button:hover, a:hover {
-  background-color: #feb47b;
+  background-color: #feb47b; /* Light peach color for hover */
   transform: translateY(-3px); /* Slight hover effect */
 }
 
-/* Responsive Design: Adjusting for smaller screens */
+/* Footer Styling (Optional for any footer content) */
+footer {
+  font-size: 14px;
+  color: #777; /* Light gray text for footer */
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Responsive Design for smaller screens */
 @media (max-width: 768px) {
   .container {
     padding: 10px;
